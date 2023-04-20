@@ -70,6 +70,10 @@ FAIL:
 ```
 Note that the program will append to the end of the output file instead of overriding it.
 
+## Contributing
+If you have any suggestions or find any issues with the code, please feel free to contribute to the project by opening a pull request or creating an issue.
 
+## Credits
+This is the first project of CMPE322 Operating Systems class in Fall 2022.
 
 

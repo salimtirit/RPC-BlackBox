@@ -58,7 +58,7 @@ To run Part B, you need to run the server and client programs separately. Open t
 
 Replace `<server_ip_address>` with the IP address or hostname of the machine where the server is running. Replace `<blackbox>` with the path to the blackbox file, which is the executable you want to run. Replace `<output_file>` with the path to the output file, where the result of running the blackbox will be stored.
 
-The client program calls an RPC function in the server, passing two parameters: number1, and number2. The server program is ready for clients to run the RPC function given above. This function creates a child process that executes the given blackbox and returns the response to the client. The client program then prints the response to the specified file in the following format:
+After running the program, you will be prompted to enter two integers as input for the blackbox. The client program calls an RPC function in the server, passing two parameters: number1, and number2. The server program is ready for clients to run the RPC function given above. This function creates a child process that executes the given blackbox and returns the response to the client. The client program then prints the response to the specified file in the following format:
 - If the blackbox executes successfully, the output file should contain the following text:
 ```
 SUCCESS:

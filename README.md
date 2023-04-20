@@ -1,4 +1,4 @@
-# RPC-BlackBox
+# RPC-IPC-BlackBox
 This is a C project that implements an application using Remote Procedure Call (RPC) as the layer of communication between the client and the server. The goal is to automate the process of a binary file called "blackbox", which takes some input from the console and displays some output based on the given input values. The project has two separate parts that build on top of each other:
 
 Part A: Running the blackbox with the given inputs, getting the output, and redirecting it to a specified file.

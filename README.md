@@ -23,7 +23,6 @@ To run the program, use the following command:
 
 ```
 ./part_a.out <blackbox> <output_file>
-
 ```
 
 Replace `<blackbox>` with the path to the blackbox file, which is the executable you want to run. Replace `<output_file>` with the path to the output file, where the result of running the blackbox will be stored.
